@@ -2,15 +2,15 @@
 Yet another online bcrypt generator.
 
 ## How is it different from others?
-You can select rounds AND bcrypt version.
+You can select rounds AND bcrypt version (if it there's no practical difference).
 
 ## Requirements
-TODO
+* Node >= v12 (Tested on v16.3.0)
 
 ## Getting started
 ```shell script
 npm install --also=dev
-TODO
+npm run serve
 ```
 
 ## Demo
