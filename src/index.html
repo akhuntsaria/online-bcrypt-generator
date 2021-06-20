@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8"/>
     <title>Online Bcrypt Hash Generator</title>
 
@@ -12,18 +13,21 @@
             font-family: Open Sans, Arial, sans-serif;
             color: #454545;
             font-size: 16px;
-            margin: 2em auto;
+            margin: 1em auto;
             max-width: 800px;
             padding: 1em;
             line-height: 1.4;
-            text-align: justify
+        }
+
+        #result {
+            word-wrap: break-word;
         }
     </style>
 </head>
 <body>
 <h1>Online Bcrypt Hash Generator</h1>
-<div class="row mb-3">
-    <div class="col-6">
+<div class="row">
+    <div class="col-12 col-lg-6 mb-3">
         <div class="input-group">
             <span class="input-group-text">Version</span>
             <select id="input-version" class="form-select" aria-label="Version">
@@ -35,7 +39,7 @@
             </select>
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-lg-6 mb-3">
         <div class="input-group">
             <span class="input-group-text">Rounds</span>
             <input id="input-rounds" type="number" value="10" aria-label="Rounds" class="form-control" min="1">
