@@ -14,4 +14,4 @@ npm run serve
 ```
 
 ## Demo
-TODO
+[https://akhuntsaria.github.io/online-bcrypt-generator/](https://akhuntsaria.github.io/online-bcrypt-generator/)
