@@ -22,24 +22,29 @@
 </head>
 <body>
 <h1>Online Bcrypt Hash Generator</h1>
-<!--TODO-->
-<!--<div class="row mb-3">
+<div class="row mb-3">
     <div class="col-6">
         <div class="input-group">
             <span class="input-group-text">Version</span>
-            <input type="text" aria-label="Version" class="form-control">
+            <select id="input-version" class="form-select" aria-label="Version">
+                <option value="$2$">$2$</option>
+                <option selected value="$2a$">$2a$</option>
+                <option value="$2x$">$2x$</option>
+                <option value="$2y$">$2y$</option>
+                <option value="$2b$">$2b$</option>
+            </select>
         </div>
     </div>
     <div class="col-6">
         <div class="input-group">
             <span class="input-group-text">Rounds</span>
-            <input type="text" aria-label="Rounds" class="form-control">
+            <input id="input-rounds" type="number" value="10" aria-label="Rounds" class="form-control" min="1">
         </div>
     </div>
-</div>-->
+</div>
 <div class="input-group mb-3">
     <span class="input-group-text">String to encrypt</span>
-    <input id="string-to-encrypt" autofocus type="text" aria-label="String to encrypt" class="form-control"
+    <input id="input-string-to-encrypt" autofocus type="text" aria-label="String to encrypt" class="form-control"
            aria-describedby="button-submit">
     <button class="btn btn-primary" type="button" id="button-submit">Encrypt</button>
 </div>
