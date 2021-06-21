@@ -2,7 +2,7 @@
 Yet another online bcrypt generator.
 
 ## How is it different from others?
-You can select rounds AND bcrypt version (if it there's no practical difference).
+You can select rounds AND bcrypt version (even if there's no practical difference).
 
 ## Requirements
 * Node >= v12 (Tested on v16.3.0)
